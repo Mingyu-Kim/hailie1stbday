@@ -167,9 +167,17 @@
 	// If the count down is finished, write some text 
 	if (distance < 0) {
 	 clearInterval(x);
-     document.getElementById("day-timer").className += " hidden";
+     if ( document.getElementById("day-timer").className.match(/(?:^|\s)hidden(?!\S)/) ){
+         
+     }else{
+       document.getElementById("day-timer").className += " hidden";   
+     }
 	} else {
-        document.getElementById("time-over").className += " hidden";
+        if ( document.getElementById("time-over").className.match(/(?:^|\s)hidden(?!\S)/) ){
+         
+     }else{
+       document.getElementById("time-over").className += " hidden";   
+     }
     }
 	}, 1000);
 
