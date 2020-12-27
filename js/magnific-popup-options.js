@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var magnifPopup = function() {
 		$('.image-popup').magnificPopup({
 			type: 'image',
-			removalDelay: 300,
+			closeOnContentClick: true,
 			mainClass: 'mfp-with-zoom',
 			gallery:{
 				enabled:true
