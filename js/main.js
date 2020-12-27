@@ -176,10 +176,10 @@
 	// Document on load.
 
 	$(function(){
-		mainMenu();
+//		mainMenu();
 		parallax();
 		offcanvas();
-		mobileMenuOutsideClick();
+//		mobileMenuOutsideClick();
 		contentWayPoint();
 		stickyBanner();
 	});
