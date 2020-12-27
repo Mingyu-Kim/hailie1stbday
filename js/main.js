@@ -15,20 +15,20 @@
 	    );
 	};
 
-	// Main Menu Superfish
-	var mainMenu = function() {
-
-		$('#fh5co-primary-menu').superfish({
-			delay: 0,
-			animation: {
-				opacity: 'show'
-			},
-			speed: 'fast',
-			cssArrows: true,
-			disableHI: true
-		});
-
-	};
+//	// Main Menu Superfish
+//	var mainMenu = function() {
+//
+//		$('#fh5co-primary-menu').superfish({
+//			delay: 0,
+//			animation: {
+//				opacity: 'show'
+//			},
+//			speed: 'fast',
+//			cssArrows: true,
+//			disableHI: true
+//		});
+//
+//	};
 
 	// Parallax
 	var parallax = function() {
